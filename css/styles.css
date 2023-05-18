@@ -3,4 +3,54 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.nav {
+  min-height: 80px;
+  overflow: hidden;
+  background: white;
+}
+
+.logo h2 {
+  font-size: 16px;
+  display: inline-block;
+}
+.logo p {
+  font-size: 16px;
+  display: inline-block;
+}
+.logo .icono {
+  color: #bfbfbf;
+}
+.logo svg {
+  width: 20px;
+  height: 20px;
+}
+.logo p {
+  color: #777777;
+}
+
+.menu .c1 {
+  color: white;
+  text-decoration: none;
+  background-color: #3da5e2;
+}
+.menu .c1:hover {
+  background-color: #1ba0ef;
+}
+.menu .c2 {
+  color: white;
+  text-decoration: none;
+  background-color: #005385;
+}
+.menu .c2:hover {
+  background-color: #00426a;
+}
+.menu .c3 {
+  color: white;
+  text-decoration: none;
+  background-color: #003855;
+}
+.menu .c3:hover {
+  background-color: #002d44;
+}
+
 /*# sourceMappingURL=styles.css.map */

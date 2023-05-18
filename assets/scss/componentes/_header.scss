@@ -1,0 +1,52 @@
+.nav{
+    min-height: 80px;
+    overflow: hidden;
+    background: white;
+}
+.logo{
+    h2{
+        font-size: 16px;
+        display: inline-block;
+    }
+    p{
+        font-size: 16px;
+        display: inline-block;
+    }
+    .icono{
+        color: $color-terciario;
+    }
+    svg{
+        width: 20px;
+        height: 20px;
+    }
+    p{
+        color: #777777;
+    }
+}
+
+.menu{
+    .c1{
+        color: white;
+        text-decoration: none;
+        background-color: #3da5e2;
+        &:hover{
+            background-color: #1ba0ef;
+        }
+    }
+    .c2{
+        color: white;
+        text-decoration: none;
+        background-color: #005385;
+        &:hover{
+            background-color: #00426a;
+        }
+    }
+    .c3{
+        color: white;
+        text-decoration: none;
+        background-color: #003855;
+        &:hover{
+            background-color: #002d44;
+        }
+    }
+}
