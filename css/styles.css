@@ -53,4 +53,27 @@ body {
   background-color: #002d44;
 }
 
+.portafolio {
+  border-top: 5px solid #3da5e2;
+  background: white;
+}
+
+.galeria .contenedor-imagen {
+  max-height: 180px;
+  overflow: hidden;
+}
+.galeria .contenedor-imagen:hover img {
+  opacity: 0.3;
+}
+.galeria .contenedor-imagen a {
+  background-color: #3da5e2;
+  display: inline-block;
+}
+
+.titulo {
+  color: #3da5e2;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
 /*# sourceMappingURL=styles.css.map */

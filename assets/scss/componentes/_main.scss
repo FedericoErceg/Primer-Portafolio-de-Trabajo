@@ -1,0 +1,22 @@
+.portafolio{
+    border-top: 5px solid $color-cuarto;
+    background: white;
+}
+.galeria{
+    .contenedor-imagen{
+        max-height: 180px;
+        overflow: hidden;
+        &:hover img{
+            opacity: .3;
+        }
+        a{
+            background-color: $color-cuarto;
+            display: inline-block;
+        }
+    }
+}
+.titulo{
+    color: #3da5e2;
+    font-family: $font-family;
+    font-weight: 300;
+}
