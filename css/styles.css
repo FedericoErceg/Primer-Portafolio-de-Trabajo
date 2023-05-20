@@ -108,5 +108,8 @@ body {
     order: 7;
   }
 }
+.modal-dialog {
+  max-width: 1000px;
+}
 
 /*# sourceMappingURL=styles.css.map */
