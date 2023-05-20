@@ -97,4 +97,37 @@ body {
   font-weight: 300;
 }
 
+@media screen and (max-width: 992px) {
+  .logo {
+    height: 76px;
+  }
+  header .menu {
+    min-height: 76px;
+  }
+  header .menu a {
+    width: 100%;
+  }
+  .contenedor-imagen:nth-child(1) {
+    order: 1;
+  }
+  .contenedor-imagen:nth-child(2) {
+    order: 3;
+  }
+  .contenedor-imagen:nth-child(3) {
+    order: 6;
+  }
+  .contenedor-imagen:nth-child(4) {
+    order: 2;
+  }
+  .contenedor-imagen:nth-child(5) {
+    order: 5;
+  }
+  .contenedor-imagen:nth-child(6) {
+    order: 4;
+  }
+  .contenedor-imagen:nth-child(7) {
+    order: 7;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
