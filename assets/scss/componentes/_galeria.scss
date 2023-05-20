@@ -1,0 +1,51 @@
+// md
+@media screen and (max-width: 768px) {
+    
+}
+// lg
+@media screen and (max-width: 992px) {
+    .logo{
+        height: 76px;
+    }
+    header{
+        .menu{
+            min-height: 76px;
+            a{
+                width: 100%;
+            }
+        }
+        
+    }
+    .contenedor-imagen{
+
+        &:nth-child(1){
+            order: 1;
+        }
+        &:nth-child(2){
+            order: 3;
+        }
+        &:nth-child(3){
+            order: 6;
+        }
+        &:nth-child(4){
+            order: 2;
+        }
+        &:nth-child(5){
+            order: 5;
+        }
+        &:nth-child(6){
+            order: 4;
+        }
+        &:nth-child(7){
+            order: 7;
+        }
+    }
+}
+// xl
+@media screen and (max-width: 1200px) {
+    
+}
+// xxl
+@media screen and (max-width: 1400px) {
+    
+}
