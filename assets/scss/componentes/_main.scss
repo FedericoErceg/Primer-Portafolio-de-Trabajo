@@ -60,3 +60,46 @@
     font-size: 18px;
     letter-spacing: 2px;
 }
+// contacto
+.contacto{
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+    .titulo{
+        color: #003855;
+        font-family: $font-family;
+        font-weight: 300;
+        font-size: 40px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .formulario{
+
+        input[type="texto"]{
+
+        }
+        input[type="email"]{
+            
+        }
+        textarea{
+            height: 150px;
+            min-height: 150px;
+            max-height: 250px;
+            padding: 15px;
+            border: none;
+            font-family: $font-family;
+        }
+        .boton{
+            color: white;
+            background: #3da5e2;
+            border: none;
+            padding: 7px 30px;
+            font-family: $font-family;
+            cursor: pointer;
+            width: auto;
+            border-radius: 3px;
+            &:hover{
+                background: #1ba0ef;
+            }
+        }
+    }
+}
